@@ -6,6 +6,8 @@
       <class name="Tests.Testcase_01">
         <methods>
           <include name="loginWithValidcredentials"/>
+          <include name="driver_exit"/>
+          <include name="driver_instation"/>
         </methods>
       </class> <!-- Tests.Testcase_01 -->
     </classes>
