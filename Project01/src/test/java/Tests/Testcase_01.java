@@ -1,10 +1,13 @@
 package Tests;
 
+import org.testng.annotations.Test;
+
 import File_pkg.Loginpage;
 
 public class Testcase_01 {
 
-	public static void TC_01() throws InterruptedException
+	@Test
+	public static void loginWithValidcredentials() throws InterruptedException
 	{
 		Loginpage.loginPageActions();
 		
