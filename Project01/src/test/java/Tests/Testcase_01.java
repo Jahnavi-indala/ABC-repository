@@ -6,7 +6,7 @@ public class Testcase_01 {
 
 	public static void TC_01() throws InterruptedException
 	{
-		Loginpage.loginPageActions();;
+		Loginpage.loginPageActions();
 		
 	}
 }
