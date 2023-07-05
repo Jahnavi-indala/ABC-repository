@@ -9,7 +9,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 
 public class Driver {
 
-	static WebDriver  driver;
+	public static WebDriver  driver;
 	public static 	Properties prop= new Properties();
 
 	public static void base123() throws IOException
