@@ -50,7 +50,7 @@ public class Loginpage extends Driver {
 	
 	
 	
-	public static void loginPage() throws InterruptedException
+	public static void loginPageActions() throws InterruptedException
 	{
 		txtUserName();
 		Thread.sleep(3000);
